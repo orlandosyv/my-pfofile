@@ -1,0 +1,149 @@
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: lightgray;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+/* .card-inner {
+  text-align: center;
+} */
+
+.card_1 {
+  border: 2px solid rgba(0, 37, 250, 0.284);
+  border-radius: 15px;
+  padding: 10px 40px;
+  margin: 25px;
+  background-color: rgba(22, 100, 160, 0.562);
+  box-shadow: 8px 10px 10px rgb(0, 0, 0, 50%);
+  text-align: center;
+}
+
+.card {
+  border: 2px solid rgba(0, 37, 250, 0.284);
+  border-radius: 15px;
+  padding: 10px 60px;
+  margin: 25px;
+  background-color: rgb(144, 175, 201);
+  box-shadow: 8px 10px 10px rgb(0, 0, 0, 50%);
+}
+
+#Lista-especial {
+  text-align: center;
+  padding-left: 0px;
+}
+
+#lista-especial li {
+  display: inline-block;
+  /* como hacer para que aparezca el icono de lista , punto o asterisco */
+  padding-inline: 25px;
+}
+
+#lista-especial li:before {
+  content: "\1F604    \2756";
+  /* link: https://www.toptal.com/designers/htmlarrows/symbols/ */
+  font-size: 1em;
+  margin-right: 1em;
+}
+
+p {
+  width: 90%;
+}
+
+#foto {
+  border: 2px solid rgba(0, 37, 250, 0.284);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  /* importante para las fotos */
+  object-fit: cover;
+}
+
+#banner {
+  background-image: url(https://www.popsci.com/app/uploads/2020/06/05/3NIEQB3SFVCMNHH6MHZ42FO6PA.jpg);
+  height: 250px;
+  background-size: cover;
+  background-position-y: center;
+  text-align: center;
+}
+
+.btn-blue {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#boton-azul {
+  text-align: center;
+  margin: 15px;
+}
+
+.btn-blue:hover {
+  background-color: thistle;
+}
+
+.container {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 20px;
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+/* li {
+  list-style: none;
+  display: inline-block;
+} */
+
+.container-2 {
+  width: 1000px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: blueviolet;
+}
+
+.card-white {
+  background-color: black;
+  text-align: center;
+  margin: 30px;
+  padding: 40px;
+  color: white;
+  box-shadow: 5px 5px 6px rgba(255, 255, 255, 50%);
+}
+
+@media (max-width: 1150px) {
+  .container-2 {
+    width: 870px;
+  }
+}
+
+@media (max-width: 880px) {
+  .container-2 {
+    width: 680px;
+  }
+}
+
+@media (max-width: 690px) {
+  .container-2 {
+    width: 350px;
+  }
+}
